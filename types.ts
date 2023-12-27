@@ -9,7 +9,7 @@ export interface Song {
     image_path: string;
   }
 
-export interface UseDetails {
+export interface UserDetails {
     id:string;
     first_name:string;
     last_name:string;

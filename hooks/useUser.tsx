@@ -5,7 +5,7 @@ import {
   User
 } from '@supabase/auth-helpers-react';
 
-import { UserDetails , Subscription } from '@/types';
+import { UserDetails, Subscription } from '@/types';
 
 type UserContextType = {
   accessToken: string | null;
@@ -64,6 +64,7 @@ export const MyUserContextProvider = (props: Props) => {
       setUserDetails(null);
       setSubscription(null);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user, isLoadingUser]);
 
   const value = {

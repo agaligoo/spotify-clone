@@ -11,7 +11,7 @@ import Library from "./Library";
 import { twMerge } from "tailwind-merge";
 
 import { Song } from "@/types";
-import usePlayer from "@/hooks/userPlayer";
+import usePlayer from "@/hooks/usePlayer";
 
 
 interface SidebarProps {

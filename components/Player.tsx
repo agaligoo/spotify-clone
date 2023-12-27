@@ -1,7 +1,7 @@
 "use client"
 
 import useGetSongById from "@/hooks/useGetSongById";
-import usePlayer from "@/hooks/userPlayer";
+import usePlayer from "@/hooks/usePlayer";
 import useLoadSongUrl from "@/hooks/useLoadSongUrl";
 import PlayerContent from "./PlayerContent";
 
